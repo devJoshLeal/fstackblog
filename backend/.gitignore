@@ -1,0 +1,29 @@
+# Archivos y directorios de Laravel que no deben ser versionados
+/vendor/
+/node_modules/
+/public/storage/
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+yarn.lock
+
+# Archivos de configuración de IDE
+/.idea/
+/.vscode/
+/.editorconfig
+/.gitattributes
+
+# Archivos de caché y logs
+/cache/
+/storage/app
+/storage/framework/
+/storage/logs/
+
+# Archivos de configuración de PHPStorm
+/.phpstorm.meta.php
+/.phpstorm.settings.xml
